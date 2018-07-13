@@ -1,0 +1,54 @@
+{
+  "name": "util-sms",
+  "description": "通过云片发送SMS短信",
+  "version": "1.0.1",
+  "author": {
+    "name": "Elaine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "uc:node/util-sms"
+  },
+  "main": "lib/index",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-release": "^0.13.0",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "http://m2.umiit.cn/content/repositories/npm-umi/"
+  },
+  "dependencies": {
+    "stringformat": "0.0.5"
+  },
+  "readme": "## util-sms\n\n通过云片发送SMS短信\n\n",
+  "readmeFilename": "README.md",
+  "gitHead": "17db3339a0feaf207fbcc5431158ae398981c6b7",
+  "_id": "util-sms@1.0.1",
+  "_shasum": "28435f13b5c23a4bc42c65b4176c817cbd9929bb",
+  "_from": "util-sms@>=1.0.0 <2.0.0",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "elaine",
+    "email": "elaine@umiit.cn"
+  },
+  "maintainers": [
+    {
+      "name": "elaine",
+      "email": "elaine@umiit.cn"
+    }
+  ],
+  "dist": {
+    "shasum": "28435f13b5c23a4bc42c65b4176c817cbd9929bb",
+    "tarball": "http://m2.umiit.cn/content/groups/npm/util-sms/-/util-sms-1.0.1.tgz"
+  },
+  "_resolved": "http://m2.umiit.cn/content/groups/npm/util-sms/-/util-sms-1.0.1.tgz"
+}
